@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(195, 238, 248);
+}
+h1, p, nav, a {
+    text-decoration: none;
+}
+/* Brandon's Portfolio Navbar font and color*/
+nav a.portfolioNav {
+    font-size: 30px;
+    color: rgb(247, 95, 95);
+}
+/* Home-About-Contact */
+nav .navbar .HBC a {
+    font-size: 24px;
+    color: rgb(255, 127, 81);
+}
+/* footer font and color*/
+footer .footer .icons a, footer a.portfolioFooter {
+    font-size: 24px;
+    color: rgb(255, 127, 81);
+}
+/* hover colors */
+nav a.portfolioNav:hover {
+    color: red;
+}
+nav .navbar .HBC a:hover, footer .footer .icons a:hover, footer a.portfolioFooter:hover {
+    color: orangered;
+}
+.text a:hover {
+    background-color: rgb(0, 36, 70);
+    color: rgb(207, 104, 66);
+}
+/* navigation and footer color */
+nav {
+    background-color: rgb(195, 238, 248);
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.582);
+}
+/* header font sizes */
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+}
+/* text colors */
+.text h1 {
+    color: rgb(255, 127, 81);
+}
+.text h2 {
+    color: rgb(255, 127, 81);
+}
+.text h2 i{
+    color: rgb(255, 255, 255);
+}
+.text a {
+    text-decoration: none;
+    background-color: rgb(19, 53, 82);
+    color: rgb(255, 127, 81);
+}
+/* Box around the text */
+.text {
+    background-color: rgba(195, 238, 248, 0.212);
+}
+
+/* fonts */
+nav .portfolioNav, footer .portfolioFooter, nav .navbar .HBC a {
+    font-family: 'Roboto', sans-serif;
+}
