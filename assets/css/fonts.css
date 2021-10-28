@@ -1,5 +1,7 @@
 body{
     background-color:rgb(195, 238, 248);
+    max-width: 100%;
+    overflow-x:hidden;
 }
 h1, p, nav, a {
     text-decoration: none;
@@ -23,13 +25,14 @@ footer .footer .icons a, footer a.portfolioFooter {
 nav a.portfolioNav:hover {
     color: red;
 }
-nav .navbar .HBC a:hover, footer .footer .icons a:hover, footer a.portfolioFooter:hover {
+nav .navbar .HBC a:hover, footer .footer .icons a:hover, footer a.portfolioFooter:hover, .about .textAbout .source a:hover{
     color: orangered;
 }
 .text a:hover {
     background-color: rgb(0, 36, 70);
     color: rgb(207, 104, 66);
 }
+
 /* navigation and footer color */
 nav {
     background-color: rgb(195, 238, 248);
@@ -63,7 +66,6 @@ h2 {
 .text, .main .container {
     background-color: rgba(195, 238, 248, 0.212);
 }
-
 /* fonts */
 nav .portfolioNav, footer .portfolioFooter, nav .navbar .HBC a {
     font-family: 'Fjalla One', sans-serif;
@@ -71,3 +73,27 @@ nav .portfolioNav, footer .portfolioFooter, nav .navbar .HBC a {
 .main .text, .main .container h1 {
     font-family: 'Architects Daughter', cursive;
 }
+/* About Stuff, have no idea why link is bigger than shown visibly */
+.about {
+    font-family: 'Zen Antique', serif;
+    color:rgb(172, 81, 48);
+    border-style: solid;
+    background-color: rgb(19, 53, 82) !important;
+}
+.about video {
+    border-style: solid;
+    width: 450px;
+}
+.about p  {
+    clear: left;
+    padding: 0px;
+}
+.about .textAbout  {
+    text-decoration: none;
+    color: rgb(172, 81, 48);
+}
+
+.about .textAbout .source a {
+    color: rgb(199, 107, 73);
+}
+
