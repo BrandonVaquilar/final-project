@@ -2,25 +2,22 @@
 <html>
     <head>
         <title>
-            Final Project
+            Portfolio
         </title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/fonts.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4c72281c86.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fjalla+One&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <nav>
-            <a href="index.html" class="portfolio">Brandon's Portfolio</a>
+            <a href="index.html" class="portfolioNav">       <img src="img/yay_300.png">Brandon's Portfolio</a>
             <ul class="navbar">
                 <li class="HBC"><a href="index.html">Home</a></li>
                 <li class="HBC"><a href="About.html">About</a></li>
@@ -32,10 +29,36 @@
                 <h1>Hi, I'm Brandon</h1>
                 <h2>Say cheese <i class="fas fa-snowman"></i></h2>
                 <a href="about.html">Explore the About Page</a>
-                <a href="contact.html">Explore the Contact Page</a>
+                <a href="index.html">&nbspExplore the Home Page&nbsp&nbsp</a>
             </div>
-            <div class="spacer"></div>
+            <div class="spacerContact2"></div>
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form target="_blank" action="https://formsubmit.co/0d6eadff08ca88fe25fd18a9f9689821" method="POST">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="60"required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+            </div>
+            <div class="spacerContact"></div>
         </header>
-
+        <footer>
+            <a href="index.html" class="portfolioFooter">Brandon's Portfolio</a>
+            <ul class="footer">
+                <li class="icons"><a href="https://github.com/BrandonVaquilar" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                <li class="icons"><a href="Contact.html"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </footer>
     </body>
 </html>

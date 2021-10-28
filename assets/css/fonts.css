@@ -45,7 +45,7 @@ h2 {
     font-size: 40px;
 }
 /* text colors */
-.text h1 {
+.text h1, .main .container h1 {
     color: rgb(255, 127, 81);
 }
 .text h2 {
@@ -60,11 +60,14 @@ h2 {
     color: rgb(255, 127, 81);
 }
 /* Box around the text */
-.text {
+.text, .main .container {
     background-color: rgba(195, 238, 248, 0.212);
 }
 
 /* fonts */
 nav .portfolioNav, footer .portfolioFooter, nav .navbar .HBC a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+}
+.main .text, .main .container h1 {
+    font-family: 'Architects Daughter', cursive;
 }

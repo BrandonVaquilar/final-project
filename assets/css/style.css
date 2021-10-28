@@ -12,6 +12,10 @@ nav {
     top: 0px;
     z-index: 9999;
 }
+nav a img {
+    width: 30px;
+    height: 30px;
+}
 .main .text a {
     font-size: 20px;
 }
@@ -47,6 +51,7 @@ footer ul li {
     justify-content: right;
     position: relative;
 }
+
 .main::after {
     content: '';
     position: absolute;
@@ -60,13 +65,21 @@ footer ul li {
     background-repeat: no-repeat;
     z-index: -1;
 }
+.spacerContact {
+    width: 3%;
+}
+
+.spacerContact2 {
+    width: 31.24%;
+}
 .spacer {
     width: 62%;
 }
-.text {
+.text, .main .container {
     border-radius: 7px;
     padding: 30px 30px;
     margin-right: 10px;
+    position: relative;
 }
 .text a {
     border-radius: 7px;
